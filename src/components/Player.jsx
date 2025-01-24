@@ -7,7 +7,7 @@ export default function Player({ initialName, symbol }) {
   function handleEdit() {
     setIsEditing((editing) => !editing);
   }
-  
+
   function handleChange(event) {
     setPlayerName(event.target.value);
   }
@@ -24,7 +24,7 @@ export default function Player({ initialName, symbol }) {
       />
     );
   }
-  //   let buttonCaption = isEditing ? "Save" : "Edit";
+
   return (
     <li>
       <span className="player">
